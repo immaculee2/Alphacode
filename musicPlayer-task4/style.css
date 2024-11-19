@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .music-player {
+    text-align: center;
+    background-color: #3b3f47;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+  }
+  
+  .controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .controls button:hover {
+    color: #1db954;
+  }
+  
+  .progress-container {
+    background: #555;
+    border-radius: 5px;
+    height: 5px;
+    margin: 15px 0;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .progress {
+    background: #1db954;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+  }
+    
